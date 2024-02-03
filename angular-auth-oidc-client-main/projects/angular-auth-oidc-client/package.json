@@ -1,0 +1,45 @@
+{
+  "name": "angular-auth-oidc-client",
+  "author": "Damien Bowden & Fabian Gosebrink",
+  "peerDependencies": {
+    "rxjs": "^6.5.3 || ^7.4.0",
+    "@angular/core": ">=15.0.0",
+    "@angular/common": ">=15.0.0",
+    "@angular/router": ">=15.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "rfc4648": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damienbod/angular-auth-oidc-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damienbod/angular-auth-oidc-client/issues"
+  },
+  "homepage": "https://github.com/damienbod/angular-auth-oidc-client",
+  "keywords": [
+    "angular",
+    "oidc",
+    "oauth2",
+    "openid",
+    "security",
+    "typescript",
+    "openidconnect",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "certified",
+    "oauth",
+    "authorization"
+  ],
+  "license": "MIT",
+  "version": "16.0.1",
+  "description": "Angular Lib for OpenID Connect & OAuth2",
+  "schematics": "./schematics/collection.json",
+  "ng-add": {
+    "save": "dependencies"
+  }
+}
